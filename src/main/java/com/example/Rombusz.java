@@ -6,4 +6,8 @@ public class Rombusz {
 
         return 4 * side;
     }
+
+    public void calcArea(){
+        
+    }
 }
