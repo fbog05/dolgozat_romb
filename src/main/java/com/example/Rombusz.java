@@ -15,7 +15,7 @@ public class Rombusz {
 
     public double calcArea(double side, double angle){
 
-        if (side <= 0){
+        if (side <= 0 || angle <= 0){
             throw new InputMismatchException();
         }
 
