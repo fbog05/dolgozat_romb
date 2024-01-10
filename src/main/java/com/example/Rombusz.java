@@ -2,7 +2,8 @@ package com.example;
 
 public class Rombusz {
     
-    public void calcDistrict(double side){
+    public double calcDistrict(double side){
 
+        return 0.0;
     }
 }
