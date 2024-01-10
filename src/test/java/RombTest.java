@@ -1,3 +1,5 @@
+import java.util.InputMismatchException;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -32,4 +34,7 @@ public class RombTest {
         double expected = 229.4;
         Assert.assertEquals(actual, expected, 0.1);
     }
+
+    @Test(expectedExceptions = InputMismatchException.class)
+    public void testCalcDistrict_Zero_Side(){}
 }
