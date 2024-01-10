@@ -19,6 +19,6 @@ public class RombTest {
 
     @Test
     public void testCalcArea(){
-        this.rombusz.calcArea();
+        this.rombusz.calcArea(10.0, 30.0);
     }
 }
