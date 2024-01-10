@@ -4,6 +4,6 @@ public class Rombusz {
     
     public double calcDistrict(double side){
 
-        return 0.0;
+        return 4 * side;
     }
 }
