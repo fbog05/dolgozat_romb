@@ -1,8 +1,14 @@
 package com.example;
 
+import java.util.InputMismatchException;
+
 public class Rombusz {
     
     public double calcDistrict(double side){
+
+        if (side <= 0){
+            throw new InputMismatchException();
+        }
 
         return 4 * side;
     }
