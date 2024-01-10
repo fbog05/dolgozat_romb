@@ -13,6 +13,6 @@ public class RombTest {
 
     @Test
     public void testCalcDistrict(){
-        this.rombusz.calcDistrict(10);
+        double actual = this.rombusz.calcDistrict(10);
     }
 }
