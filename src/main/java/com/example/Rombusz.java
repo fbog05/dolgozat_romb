@@ -7,7 +7,7 @@ public class Rombusz {
         return 4 * side;
     }
 
-    public void calcArea(double side, double angle){
+    public double calcArea(double side, double angle){
 
         return 0.0;
     }
