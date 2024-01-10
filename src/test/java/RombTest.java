@@ -1,6 +1,5 @@
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import com.example.Rombusz;
 
 public class RombTest {
@@ -14,6 +13,6 @@ public class RombTest {
 
     @Test
     public void testCalcDistrict(){
-        this.rombusz.calcDistrict;
+        this.rombusz.calcDistrict();
     }
 }
