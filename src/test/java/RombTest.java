@@ -39,4 +39,9 @@ public class RombTest {
     public void testCalcDistrict_Zero_Side(){
         this.rombusz.calcDistrict(0);
     }
+
+    @Test(expectedExceptions = InputMismatchException.class)
+    public void testCalcArea_Zero_Side(){
+
+    }
 }
