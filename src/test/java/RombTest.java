@@ -1,3 +1,13 @@
+/*
+* File: RombTest.java
+* Author: Ferencsik Boglárka
+* Copyright: 2024, Ferencsik Boglárka
+* Group: Szoft II/2/N
+* Date: 2024-01-10
+* Github: https://github.com/fbog05
+* Licenc: GNU GPL
+*/
+
 import java.util.InputMismatchException;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
