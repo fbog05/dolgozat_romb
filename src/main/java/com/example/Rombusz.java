@@ -11,6 +11,6 @@ public class Rombusz {
 
         double rad = angle * Math.PI / 180;
 
-        return Math.pow(side, 2) * Math.sin(rad);
+        return Math.pow(side, 2.0) * Math.sin(rad);
     }
 }
