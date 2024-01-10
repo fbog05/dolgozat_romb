@@ -47,6 +47,6 @@ public class RombTest {
 
     @Test(expectedExceptions = InputMismatchException.class)
     public void testCalcArea_Zero_Angle(){
-
+        this.rombusz.calcArea(1, 0);
     }
 }
