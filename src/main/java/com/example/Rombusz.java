@@ -15,6 +15,10 @@ public class Rombusz {
 
     public double calcArea(double side, double angle){
 
+        if (side <= 0){
+            throw new InputMismatchException();
+        }
+
         double rad = angle * Math.PI / 180;
 
         return Math.pow(side, 2.0) * Math.sin(rad);
