@@ -9,5 +9,6 @@ public class Rombusz {
 
     public void calcArea(double side, double angle){
 
+        return 0.0;
     }
 }
