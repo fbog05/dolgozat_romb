@@ -9,6 +9,8 @@ public class Rombusz {
 
     public double calcArea(double side, double angle){
 
-        return 0.0;
+        double rad = angle * Math.PI / 180;
+
+        return Math.pow(side, 2) * Math.sin(rad);
     }
 }
