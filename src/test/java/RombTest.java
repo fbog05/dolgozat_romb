@@ -16,4 +16,9 @@ public class RombTest {
         double actual = this.rombusz.calcDistrict(10.0);
         double expected = 40.0;
     }
+
+    @Test
+    public void testCalcArea(){
+        this.rombusz.calcArea();
+    }
 }
